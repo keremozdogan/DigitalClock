@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    justify-content: center;
+    background: url("https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWlhbWl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1000&q=60");
+    background-size: cover;
+    overflow: hidden;
+}
+
+    h2{
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: 14px;
+        text-align: center;
+        color: purple;
+        background: rgb(208, 201, 216);
+    }
+    .clock{
+        display: flex;
+    }
+    .clock div{
+        margin: 3px;
+        position:relative;
+    }
+
+    .clock span{
+        width: 100px;
+        height: 80px;
+        background: slateblue;
+        opacity: .7;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        text-shadow: rgba(0,0,0,0.3);
+    }
+
+    .clock .text{
+        height: 30px;
+        font-size: 20px;
+        background-color: rgb(151, 124, 177);
+    }
+
+    .clock #ampm{                    /*id'ler tek tırnakla tutulur*/
+        bottom:0;
+        position: absolute;
+        width: 60px;
+        height: 30px;
+        font-size: 20px;
+        background: green;
+    }
